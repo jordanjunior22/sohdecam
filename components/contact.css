@@ -9,7 +9,7 @@
     border-radius: 5px;
 }
 .contact-image{
-    background-image: url('/contact1.jpg');
+    background-image: url('https://github.com/jordanjunior22/sohdecam/blob/main/public/contact1.jpg?raw=true');
     transition: background-image 0.3s; /* Smooth transition for the image change */
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 .contact-image:hover{
-    background-image: url('/contact2.jpg');
+    background-image: url('https://github.com/jordanjunior22/sohdecam/blob/main/public/contact2.jpg?raw=true');
 }
 .div-form{
 
