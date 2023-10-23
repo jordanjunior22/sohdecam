@@ -3,7 +3,7 @@
     text-align: center;
     margin: 2rem;
     padding: 2rem;
-    background-image: url('/consult.jpg');
+    background-image: url('./consult.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
