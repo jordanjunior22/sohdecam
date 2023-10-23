@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-logo{
+    font-weight: 800;
+    font-size: large;
+
+    /** TEXT GRADIENT */ color: #6F9597; background-image: -webkit-linear-gradient(0deg, #6F9597 27%, #000 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+}
+
+.navbar-cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.emergency-btn{
+    border: none;
+    background-color: var(--bg-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+    color: var(--red-color);
+    opacity: 0.6;
+}
+.emergency-btn:hover{
+    background-color: var(--bg-color);
+    
+}
+.appointment-btn{
+    border: none;
+    background-color: var(--cta-color);
+    border-radius: 20px;
+    color:var(--bg-color);
+}
+
+
+.sidelinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.side-nav {
+    position: absolute;
+    top: -1000px;
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1000;
+    right: 0%; /* Start off-screen on the right */
+    transition: top 0.5s ease-in-out; 
+    width: 100%;
+    background-color: white;
+}
+
+.side-nav.show-menu {
+    top: 60px; /* Slide in from the right */
+}
+
+.toggle{
+    display: none;
+  }
+  .menu-icon{
+    font-size: 2rem;
+    color: black;
+  }
+  @media (max-width: 768px) {
+
+    .toggle{
+        display: block;
+      }
+    .navbar-link{
+        display: none;
+    }
+  
+  }
+  
+  @media (max-width: 529px) {
+    .navbar-cta{
+        display: none;
+    }
+  }
+
+

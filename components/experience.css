@@ -1,0 +1,49 @@
+.experience{
+    justify-content: center;
+    font-size: 1rem;
+}
+.experience-box{
+    border: 1px solid lightgray;
+    width: 300px;
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+    
+}
+.border-left{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.border-right{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.strong{
+    background-color: var(--main-color);
+}
+.weak{
+    background-color: #adcacc;
+}
+@media (max-width:768px) {
+    .experience{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width:537px) {
+    .experience{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .border-left{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0%;
+    }
+    .border-right{
+        border-radius: 0%;
+    }
+}

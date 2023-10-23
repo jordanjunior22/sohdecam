@@ -1,0 +1,10 @@
+.banner-image{
+
+    max-height: 300px; /* Set your desired height */
+    overflow: hidden;
+    white-space:inherit;
+}
+.banner-image img{
+    width: 100%;
+    margin-bottom: 0;
+}

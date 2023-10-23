@@ -1,0 +1,18 @@
+.service-image{
+    
+    height: 300px; /* Set your desired height */
+    overflow: hidden;
+    padding: 1rem 0 1rem 1rem;
+}
+.service-image img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius:80px;
+    border-top-left-radius: 80px;
+}
+.title{
+    justify-content: center;
+    align-items: center;
+
+    color: var(--main-color);
+}

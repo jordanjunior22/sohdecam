@@ -1,0 +1,38 @@
+.about{
+    text-align: center;
+    font-size: 1em;
+    
+}
+.about-content{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.about-content p{
+text-align: left;
+}
+.card h4{
+    color: var(--main-color);
+}
+.card p{
+    padding: 1em;
+}
+.title{
+    justify-content: center;
+    align-items: center;
+
+    color: var(--main-color);
+}
+.mental{
+    font-size: 1.2rem;
+    color: var(--main-color);
+}
+@media (max-width:768px) {
+    .about{
+        font-size: 0.8em;
+    }
+}
+@media (max-width:425px) {
+    .about-content{
+        flex-direction: column;
+    }
+}

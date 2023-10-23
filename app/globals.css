@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+:root {
+  --bg-color:#ffffff;
+  --hover-color:#00BDC4;
+  --cta-color:#80FF72;
+  --red-color:#E71D36;
+  --main-color:#6F9597;
+ 
+}
+html {
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.PaddingLeftAndRight{
+  padding: 0 1rem;
+}
+.MarginLeftAndRight{
+  margin: 0 1rem;
+}
+.MarginTopAndBottom{
+  margin: 1rem 0;
+}
+
+.PaddingTopAndButtom{
+  padding: 1rem 0;
+}
+.MarginAll{
+  margin: 1rem;
+}
+.PaddingAll{
+  padding: 1rem;
+}
+.Flex-x-direction{
+  display: flex;
+}
+.Flex-y-direction{
+  display: flex;
+  flex-direction: column;
+}
+
+.default-cta-button{
+  padding: 0.5rem 1rem; /* Adjust padding to fit your content. */
+  font-size: 1em; /* Font size appropriate for the button. */
+  transition: background-color 0.3s ease; /* Smooth hover effect. */
+  cursor: pointer;
+}
+
+.default-cta-button:hover {
+  background-color: var(--hover-color); /* Slightly different color on hover. */
+}
+
+.LinkStyles{
+ text-decoration: none;
+ color: black;
+ opacity: 0.7;
+ transition: 0.3s ease-in-out;
+}
+
+.LinkStyles:hover{
+  color: var(--main-color);
+
+}
+.active{
+  color: var(--main-color);
+  font-weight: bold;
+  opacity: 1;
+}
+
+.AddOpacity{
+  opacity: 0.6;
+}
+.TextCenter{
+  text-align: center;
+}
+@media (max-width:768px) {
+  html {
+    font-size: 14px;
+  
+  }
+}
