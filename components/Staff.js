@@ -14,7 +14,7 @@ export default function Staff() {
 
             <div className='staff-person MarginLeftAndRight'>
                 <div>
-                    <img src='/doctor.jpg' alt='person'/>
+                    <img src='./doctor.jpg' alt='person'/>
                 </div>
                 <div className='staff-detail'>
                     <h4>Medical Doctor</h4>
@@ -24,7 +24,7 @@ export default function Staff() {
 
             <div className='staff-person MarginLeftAndRight'>
                 <div>
-                    <img src='/doctor.jpg' alt='person'/>
+                    <img src='./doctor.jpg' alt='person'/>
                 </div>
                 <div className='staff-detail'>
                     <h4>Medical Doctor</h4>
@@ -34,7 +34,7 @@ export default function Staff() {
 
             <div className='staff-person MarginLeftAndRight'>
                 <div>
-                    <img src='/doctor.jpg' alt='person'/>
+                    <img src='./doctor.jpg' alt='person'/>
                 </div>
                 <div className='staff-detail'>
                     <h4>Medical Doctor</h4>
@@ -44,7 +44,7 @@ export default function Staff() {
 
             <div className='staff-person MarginLeftAndRight'>
                 <div>
-                    <img src='/doctor.jpg' alt='person'/>
+                    <img src='./doctor.jpg' alt='person'/>
                 </div>
                 <div className='staff-detail'>
                     <h4>Medical Doctor</h4>
@@ -54,7 +54,7 @@ export default function Staff() {
 
             <div className='staff-person MarginLeftAndRight'>
                 <div>
-                    <img src='/doctor.jpg' alt='person'/>
+                    <img src='./doctor.jpg' alt='person'/>
                 </div>
                 <div className='staff-detail'>
                     <h4>Medical Doctor</h4>
@@ -64,7 +64,7 @@ export default function Staff() {
 
             <div className='staff-person MarginLeftAndRight'>
                 <div>
-                    <img src='/doctor.jpg' alt='person'/>
+                    <img src='./doctor.jpg' alt='person'/>
                 </div>
                 <div className='staff-detail'>
                     <h4>Medical Doctor</h4>
